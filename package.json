@@ -1,0 +1,31 @@
+{
+  "name": "@ga1az/google-places-client",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Google places client (new) interface",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ga1az/google-places-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga1az/google-places-client.git"
+  },
+  "bugs": "https://github.com/ga1az/google-places-client/issues",
+  "author": "Sergio Galaz <ga1az@outlook.com>",
+  "devDependencies": {
+    "bun-plugin-dts": "^0.2.3",
+    "@types/bun": "^1.1.6",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {}
+}
